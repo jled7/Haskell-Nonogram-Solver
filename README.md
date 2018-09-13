@@ -5,13 +5,11 @@ A nonogram (http://en.wikipedia.org/wiki/Nonogram) is a logic puzzle developed o
 The shape of this drawing is determined by a list of numerical values that indicate for each row (or column) of the board the groups of consecutive marked squares that exist in that row (or column). For example, if in a row we have the values 5 3 9 , it means that there are three groups of marked squares in that row: the first of length 5, the second of length 3 and the last of length 9. All these groups must be separated by at least one free square.
 
 For example, The next image shows an unsolved Nonogram:
-<p align = "center"><img src = "https://github.com/jled7/Haskell-Nonogram-Solver/raw/master/images/emptynonogram.png"></p>
-<p align = "center">20x20 nonogram (source: wikipedia)</p>
+<p align = "center"><img src = "https://github.com/jled7/Haskell-Nonogram-Solver/raw/master/images/emptynonogram.png"><br />20x20 nonogram (source: wikipedia)</p>
+
 And in the next image we can see a solution of such a nonogram. It should be noted that the solution of a nonogram (if it exists) does not have to be unique, since the same constraints can give rise to more than one drawing that meets them.
 
-<p align = "center"><img src = "https://github.com/jled7/Haskell-Nonogram-Solver/raw/master/images/nonograma.png"></p>
-<p align = "center">The same nonogram already solved (source wikipedia)</p>
-
+<p align = "center"><img src = "https://github.com/jled7/Haskell-Nonogram-Solver/raw/master/images/nonograma.png"><br />The same nonogram already solved (source wikipedia)</p>
 
 
 We will consider the problem of a computer scientist hired by a newspaper that intends to offer its readers a daily nonogram for them to solve. The practice consists, therefore, in developing a program that, given a nonogram expressed as a set of constraints, checks whether the nonogram has a solution and whether it is unique or not. 
